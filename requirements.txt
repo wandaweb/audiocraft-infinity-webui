@@ -19,7 +19,7 @@ xformers
 demucs
 librosa
 requests
-gradio==3.34.0
+gradio==3.39.0
 contextlib2
 wave
 wandb
