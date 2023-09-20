@@ -1,9 +1,12 @@
+This is a fork of [audiocraft-infinity-webui](https://github.com/1aienthusiast/audiocraft-infinity-webui).
+
 Colab notebook  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1STBsASLo_qLOj5_yZvpxeuhyYm_I_xT-?usp=sharing)
 
 Installation steps:
 ```
 git clone https://github.com/wandaweb/audiocraft-infinity-webui/
+cd audiocraft-infinity-webui
 pip install 'torch>=2.0'
 pip install -r requirements.txt
 cd repositories
