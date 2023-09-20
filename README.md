@@ -1,3 +1,25 @@
+Colab notebook  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1STBsASLo_qLOj5_yZvpxeuhyYm_I_xT-?usp=sharing)
+
+Installation steps:
+```
+git clone https://github.com/wandaweb/audiocraft-infinity-webui/
+pip install 'torch>=2.0'
+pip install -r requirements.txt
+cd repositories
+git clone --branch v0.0.2 https://github.com/facebookresearch/audiocraft
+git clone https://github.com/chavinlo/musicgen_trainer
+cd ..
+```
+
+Start the WebUI:
+`python webui.py`
+or
+`python webuibatch.py`
+
+-----------------
+Original README.md
+
 # Audiocraft Infinity WebUI
 
 Adds generation of songs with a length of over 30 seconds.
